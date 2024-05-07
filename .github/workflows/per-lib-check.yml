@@ -103,7 +103,7 @@ jobs:
         uses: codecov/codecov-action@v1
         with: 
           token: ${{ secrets.CODECOV_TOKEN }}
-          file: ./build/coverage.info
+          file: main_coverage.info
           flags: unittests
           name: codecov-umbrella
           fail_ci_if_error: true
