@@ -12,7 +12,7 @@
     ];
   };
   inputs = {
-    nixpkgs.url = "nixpkgs/nixos-unstable";
+    nixpkgs.url = "nixpkgs/nixos-23.11";
     flake-utils.url = "github:numtide/flake-utils";
     proj-repo = {
       url = "github:lockshaw/proj";
@@ -114,7 +114,6 @@
               compdb
               jq
               gh
-              gcc
             ])
             (with proj-repo.packages.${system}; [
               proj
