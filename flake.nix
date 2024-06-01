@@ -114,6 +114,7 @@
               compdb
               jq
               gh
+              gcc
             ])
             (with proj-repo.packages.${system}; [
               proj
