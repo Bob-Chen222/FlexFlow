@@ -12,7 +12,7 @@
     ];
   };
   inputs = {
-    nixpkgs.url = "nixpkgs/nixos-23.11";
+    nixpkgs.url = "nixpkgs/nixos-24.05";
     flake-utils.url = "github:numtide/flake-utils";
     proj-repo = {
       url = "github:lockshaw/proj";
